@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Raemarie Oatman - Web Developer</title>
+        <!-- Source of reset stylesheet is: normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css -->
+        <link rel="stylesheet" href=".assets/css/normalize.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    
+    </head>
+
+
+
+    <!-- BODY -->
+    <!-- The body contains three parts:  the header, the project cards (main) and the footer -->
+    <body>
+
+        <!-- HEADER -->
+        <!-- The header contains the title of the page as an h1 element and the navigation as an un-ordered list  -->
+        <!-- The header is flex and will remain at the top of the page -->
+        <header>
+
+            <!-- This is the only h1 element.  It is located at the left of the header -->
+            <h1>Raemarie Oatman</h1>
+                
+            <!-- NAV -->
+            <!-- The nav is flex and inline.  Nav links will link to other locations on the page.  The have a hover state. -->
+            <nav>
+                <ul>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about_me">About Me</a></li>
+                    <li><a href="#contact_me">Contact Me</a></li>
+                    <!-- Resume opens in new tab when selected -->
+                    <li><a href="assets/oatman_raemarie.pdf" target="_blank">Resume</a></li>
+                </ul>
+            </nav>
+            <!-- End of NAV -->
+
+        </header>
+        <!-- End of HEADER -->
+
+
+
+        <!-- MAIN -->
+        <!-- The main contains a navigation target followed by 1 primary project card and 4 additional cards.  All are represented by images.  When the viewport is large, there are two rows of cards. As the screen gets smaller, there the rows wrap until there are 5 rows of 1 card.  The cards will grow visably when the mouse hovers.  When complete, project cards will link to their corresponding applications.  Currently, the project cards are placeholders -->
+        <main>
+
+            <!-- DIV CLASS NAVIGATION_TARGET -->
+            <!-- This div is added to allow navigation to the h2 element.  All navigation targets have been assigned the navigation_target class.  Each target also has a unique id.  The navigation_target class allows for styling that prevents the sticky header from covering-up the h2.  The unique ids allow the navigation to find the correct target -->
+            <div class="navigation_target" id="projects">
+                <h2>Projects</h2>
+            </div>
+
+            <!-- This div holds the 5 project cards represented by images. Each has an h3 title.  These are the only h3 elements -->
+            <!-- DIV CLASS PROJECT_CARDS-->
+            <div class= "project_cards">
+                        
+                <section class="first_project">
+                    <h3>Custom Medication List</h3>
+                    <img src="assets/Images/Medication.jpg" alt="A variety of individual prescription pills and capsules mixed together on a flat service">
+                </section>
+
+                <div class="thumbnails">
+                    <section>
+                        <h3>Local Weather Tracker</h3>
+                        <img src="assets/Images/Weather.jpg" alt="A view looking directly up into a deep blue sky with falling snowflakes of differing sizes">
+                    </section>
+                            
+                    <section>
+                        <h3>Education Credit Calculator</h3>
+                        <img src="assets/Images/taxes-by-pexels-nataliya-vaitkevich-6863184.jpg" alt="Overhead view of several tax forms, a calculator, several pencils, and a highlighter on a desktop">
+                    </section>
+                                
+                    <section>
+                        <h3>Electronic Book Finder</h3>
+                        <img src="assets/Images/ebooks-by-pexels-perfecto-capucine-1329571.jpg" alt="An ebook reader displaying a page from a book is propped up on a table by a stack of books.  The table is in front of bookshelves filled with books">
+                    </section>
+                                
+                    <section>
+                        <h3>Instant Pot Recipe Finder</h3>
+                        <img src="assets/Images/Ingredients.jpg" alt="Three shiny bell peppers (one green, one red, and one yellow) sitting next to broccoli">
+                    </section>
+                                
+            </div>
+
+            </div>
+            <!-- End of DIV containing project cards -->
+
+        </main>
+        <!-- End of MAIN -->
+
+
+        <!-- FOOTER -->
+        <!-- The footer contains one div and one article.  The div is left-justified and two articles.  One article contains a photo and the other contains a paragraph. These two articles were placed in one div in order to align both to the left.  Navigation targets the h2 above the photo -->
+        <footer>
+            
+            <!-- DIV CONTAINING ABOUT ME -->        
+            <div>
+            
+                <article class="navigation_target" id="about_me"><h2>About Me</h2>
+                    <img class="about_me_photo" src="assets/Images/oatman_photo.jpg" alt="Headshot of a smiling woman with short hair">
+                </article>
+
+                <article class="bio_info">
+                    <p>Experienced Leader and Group Facilitator with MBA interested in joining your team as an entry-level Web Developer.  Successfully completed Ohio State University Full-Stack Developer Bootcamp. For-profit, not-for-profit, and higher-education work experience.  Excellent communication and team skills.<br><br>Detailed * Curious * Organized * Creative * Passionate <br><br> JavaScript * HTML * CSS * JQuery * API * React.js * MySQL * Node.js</p>
+            
+                </article>
+
+            </div>
+            <!-- End of DIV containing about me -->
+
+            <!-- SECTION CONTAINING CONTACT ME -->
+            <!-- This section contains a right-justified un-ordered list of links representing different ways to contact the developer.  It contains an h2 navigation target, phone number, and links to GitHub, and LinkedIn and email. The links grow slightly when the mouse hovers and the links to other pages open in new tabs -->
+            <section>
+                <ul class="navigation_target" id="contact_me">
+                    <li><h2 id="bluetext">Contact Me<h2></li>
+                    <li id="phone">Call me at: 740.504.6078</li>
+                    <li><a href="https://github.com/rmoatman" target="_blank">Click here to find me on GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/raemarieoatman" target="_blank">Click here to connect with me on LinkedIn</a></li>
+                    <li><a href="mailto:raemarie.oatman@gmail.com">raemarie.oatman@gmail.com</a></li>
+                </ul>
+            </section>
+            <!-- End of SECTION containing contact me-->
+
+        </footer>
+        <!-- End of FOOTER -->
+        
+    </body>
+
+</html>
+
+<!-- Last Revised 05/09/21-->
+<!-- Raemarie Oatman raemarie.oatman@gmail.com -->
+<!-- Homework Week 2 - "02 Advanced CSS: Portfolio"-->
