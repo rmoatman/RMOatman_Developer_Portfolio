@@ -50,7 +50,7 @@ https://github.com/rmoatman/RMOatman-Developer-Portfolio/blob/main/planningdocs/
 This document was created using Inkscape (https://inkscape.org).  I created this page to help me to create a color/font theme.  It also helped to identify styles that will be applied to many elements and those that will be unique to certain elements.
 
 PORTFOLIO_DOM_TREE
-https://github.com/rmoatman/RMOatman-Developer-Portfolio/blob/main/planningdocs/Portfolio_DOM_Tree.jpg
+RMOatman_Developer_Portfolio/planningdocs/Portfolio_DOM_Tree.jpg
 
 This document is a Google Docs Drawing.  It was very useful in organizing the page and planning how I would use semantic elements.  It differs from the actual portfolio page.  Initially, the <footer> contained an About Me<article> and a Contact Me<section>.  As I thought about responsiveness, however, I decided that the <footer> would be better organized and styled with the elements <img> <article> and a <section> with a <ul> instead.
 ~~~
