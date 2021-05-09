@@ -1,6 +1,6 @@
 # RMOatman-Developer-Portfolio
 
-![PORTFOLIO](assets/images/Screenshot_Of_Portfolio.PNG)
+![PORTFOLIO](/assets/Images/Screenshot_of_Portfolio.PNG)
 
 https://rmoatman.github.io/RMOatman-Developer-Portfolio/
 
