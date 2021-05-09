@@ -39,19 +39,12 @@ As mentioned above, the intent of this project was to gain experience developing
 ## About the Planning Docs (see end of document)
 ~~~
 PORTFOLIO_WIREFRAME and PORTFOLIO_RESPONSIVE_WIREFRAME
-https://github.com/rmoatman/RMOatman-Developer-Portfolio/blob/main/planningdocs/Portfolio_WireFrame.PNG
-https://github.com/rmoatman/RMOatman-Developer-Portfolio/blob/main/planningdocs/Portfolio_Responsive_WireFrame.PNG
-
 These documents were created using tools found at https://whimsical.com/.  Some differences between the wireframes and the actual page include a simpler background in order to place more focus on the content.  Also, I moved the photo to the footer to allow for navigation that remains at the top of the page regardless of user scrolling.  I didn't feel that keeping the image at the top of the page added any value to the user experience.
 
 PORTFOLIO_STYLE_GUIDE
-https://github.com/rmoatman/RMOatman-Developer-Portfolio/blob/main/planningdocs/Portfolio_Style_Guide.png
-
 This document was created using Inkscape (https://inkscape.org).  I created this page to help me to create a color/font theme.  It also helped to identify styles that will be applied to many elements and those that will be unique to certain elements.
 
 PORTFOLIO_DOM_TREE
-https://RMOatman_Developer_Portfolio/planningdocs/Portfolio_DOM_Tree.jpg
-
 This document is a Google Docs Drawing.  It was very useful in organizing the page and planning how I would use semantic elements.  It differs from the actual portfolio page.  Initially, the <footer> contained an About Me<article> and a Contact Me<section>.  As I thought about responsiveness, however, I decided that the <footer> would be better organized and styled with the elements <img> <article> and a <section> with a <ul> instead.
 ~~~
 
